@@ -3,9 +3,9 @@
 try {
 $conexao = new \PDO(
     "mysql:host=localhost;
-    dbname=estudophp",
-    "root",
-    "123456"
+    dbname=phpcompdo",
+    "phpcompdo",
+    "1234"
     );
 }
 catch(\PDOException $e){
