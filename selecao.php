@@ -1,6 +1,6 @@
 <?php
 require_once "conexao.php";
-heade('Content-Type: text/html; charset=utf-8');
+header ('Content-Type: text/html; charset=utf-8');
 $pdo=conectar();
 
 $buscaNota=$pdo->prepare("select * from alunos order by nota desc limit 3");
